@@ -1,12 +1,19 @@
-import './App.css';
-import Header from './components/Header';
+import React from 'react';
+import './Components/style.css'
+import Main from './Components/Main';
+import Header from './Components/Header';
+import SearchPage from './Components/SearchPage';
+
 
 function App() {
   return (
-    <div className="main">
-      <Header/>
-    </div>
+    <>
+    <Header/>
+    <SearchPage/>
+      <Main/>
+    </>
   );
+
 }
 
 export default App;
